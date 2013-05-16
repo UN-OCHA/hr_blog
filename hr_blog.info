@@ -1,0 +1,16 @@
+name = Humanitarianresponse Blog
+description = Blog feature
+core = 7.x
+package = Humanitarianresponse
+dependencies[] = entity
+dependencies[] = humanitarianresponse_news
+dependencies[] = humanitarianresponse_search
+dependencies[] = views
+features[context][] = blog
+features[ctools][] = context:context:3
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = blog
+features_exclude[dependencies][context] = context
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][current_search] = current_search
