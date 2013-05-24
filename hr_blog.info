@@ -19,3 +19,7 @@ features_exclude[dependencies][context] = context
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][current_search] = current_search
 features_exclude[menu_custom][main-menu] = main-menu
+
+l10n path = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/%core/%project/%project-%release.%language.po
+l10n server = localize.humanitarianresponse.info
+l10n url = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/l10n_server.xml
