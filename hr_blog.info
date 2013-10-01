@@ -2,7 +2,6 @@ name = Humanitarianresponse Blog
 description = Blog feature
 core = 7.x
 package = Humanitarianresponse
-php = 5.2.4
 dependencies[] = entity
 dependencies[] = features
 dependencies[] = humanitarianresponse_news

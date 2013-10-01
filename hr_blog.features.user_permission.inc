@@ -10,7 +10,7 @@
 function hr_blog_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: use search_api_autocomplete for search_api_views_blog.
+  // Exported permission: 'use search_api_autocomplete for search_api_views_blog'.
   $permissions['use search_api_autocomplete for search_api_views_blog'] = array(
     'name' => 'use search_api_autocomplete for search_api_views_blog',
     'roles' => array(
